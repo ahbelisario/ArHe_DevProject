@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: ArHe_DevProject
+  gitServerName: ArHe_GitHub
+  gitUrl: https://github.com/ahbelisario
+  gitUsername: ahbelisario
+  gitBranch: main
