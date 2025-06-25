@@ -57,7 +57,6 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">fea5b020-516a-11f0-8d2d-bb5fcca9bbd1</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">header</value>
@@ -103,6 +102,26 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">response</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+          <value name="modifiable">true</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -121,7 +140,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1750866993072</value>
+    <value name="lastModifiedDate">1750867119183</value>
     <value name="displayName">APICaller</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
