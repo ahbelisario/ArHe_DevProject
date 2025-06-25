@@ -12,15 +12,15 @@ services:
   packages:
   - name: ArHe_DevProject
     version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
 - serviceName: pub.json:jsonStreamToDocument
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
