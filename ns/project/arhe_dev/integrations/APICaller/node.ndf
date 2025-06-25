@@ -28,9 +28,6 @@
           <value name="field_name">url</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
-          <array name="field_options" type="value" depth="1">
-            <value></value>
-          </array>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -43,7 +40,23 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">266f0a80-516a-11f0-8d2d-bb5fcca9bbd1</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">method</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">header</value>
@@ -61,28 +74,10 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">false</value>
-            <value name="id">266f0a81-516a-11f0-8d2d-bb5fcca9bbd1</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">params</value>
           <value name="field_type">object</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">method</value>
-          <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
@@ -119,7 +114,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1750817905072</value>
+    <value name="lastModifiedDate">1750818002399</value>
     <value name="displayName">APICaller</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
