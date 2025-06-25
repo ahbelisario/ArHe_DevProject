@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ahbelisario
   gitUsername: ahbelisario
   gitBranch: main
+services:
+- serviceName: project.arhe_dev.integrations:APICaller
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
