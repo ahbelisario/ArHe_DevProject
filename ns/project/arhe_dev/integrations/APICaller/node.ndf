@@ -140,11 +140,15 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1750875073059</value>
+    <value name="lastModifiedDate">1750877045836</value>
     <value name="displayName">APICaller</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <value name="name">TRY</value>
+        <value name="itemType">CONTROLS</value>
+      </record>
+      <record name="/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -190,11 +194,6 @@
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">1</value>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">EXIT</value>
-        <value name="nodePathForDebug">2</value>
       </record>
     </record>
   </record>

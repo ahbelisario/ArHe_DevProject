@@ -5,6 +5,11 @@
 
   <!-- nodes -->
 
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="TRY">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
 <INVOKE NAME="Client" SERVICE="pub.client:http">
   <COMMENT></COMMENT>
 
@@ -855,6 +860,7 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
+</SEQUENCE>
 
 <INVOKE NAME="JSON" SERVICE="pub.json:jsonStreamToDocument">
   <COMMENT></COMMENT>
@@ -1244,8 +1250,4 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
-
-<EXIT FROM="$flow" SIGNAL="SUCCESS" FAILURE-MESSAGE="">
-  <COMMENT></COMMENT>
-</EXIT>
 </FLOW>
