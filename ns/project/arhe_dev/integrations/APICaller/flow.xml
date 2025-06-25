@@ -520,14 +520,8 @@
 <MAPCOPY FROM="/params;3;0" TO="/data;2;0/args;2;0">
 </MAPCOPY>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/method;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">get</value>
-</Values>
-</DATA>
-</MAPSET>
+<MAPCOPY FROM="/method;1;0" TO="/method;1;0">
+</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
