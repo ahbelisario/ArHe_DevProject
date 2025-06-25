@@ -5,10 +5,6 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
-  <COMMENT></COMMENT>
-</INVOKE>
-
 <INVOKE NAME="Client" SERVICE="pub.client:http">
   <COMMENT></COMMENT>
 
