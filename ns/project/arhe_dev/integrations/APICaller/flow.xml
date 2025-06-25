@@ -493,7 +493,7 @@
 <MAPCOPY FROM="/params;2;0" TO="/data;2;0/args;2;0">
 </MAPCOPY>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/method;1;0">
+<MAPSET NAME="Setter" OVERWRITE="false" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/method;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
