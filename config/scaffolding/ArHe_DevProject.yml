@@ -8,6 +8,10 @@ packages:
   gitUsername: ahbelisario
   gitBranch: main
 services:
+- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:RetreiveCustCredit
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
 - serviceName: project.arhe_dev.integrations:APICaller
   packages:
   - name: ArHe_DevProject
@@ -28,3 +32,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.arhe_dev.integrations:RetreiveCreditApproval
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
