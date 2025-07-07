@@ -7,15 +7,35 @@ packages:
   gitUrl: https://github.com/ahbelisario
   gitUsername: ahbelisario
   gitBranch: main
+- name: WmJDBCAdapter
+  version: 10.3.0.0.34
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
+- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Local_CustDB
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:RetreiveCustCredit
   packages:
   - name: ArHe_DevProject
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.arhe_dev.integrations:APICaller
   packages:
   - name: ArHe_DevProject
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
@@ -36,3 +56,54 @@ services:
   packages:
   - name: ArHe_DevProject
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.serverName
+  : containers.hdez.mx
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.databaseName
+  : customers
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.driverType
+  : Mysql_Drivers_Group
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.dbType
+  : MySQL
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.datasourceClass
+  : com.mysql.cj.jdbc.MysqlDataSource
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.portNumber
+  : "3306"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.password
+  : "{AES}HSW2KjVGRKiCOPEAjHgdSw=="
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.keyStore
+  : ""
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.trustStore
+  : ""
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.user
+  : root
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionEnabled
+  : "false"
