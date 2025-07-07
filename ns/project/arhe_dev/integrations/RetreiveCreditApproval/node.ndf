@@ -80,9 +80,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">arturo.hernandez.b@ibm.com</value>
-    <value name="createdDate">1751902194393</value>
-    <value name="lastModifiedDate">1751902194393</value>
+    <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
+    <value name="lastModifiedDate">1751903111606</value>
     <value name="displayName">RetreiveCreditApproval</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -102,7 +101,7 @@
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.arheworkspace</value>
+          <value name="projectName">project.arhe_dev</value>
         </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
@@ -118,11 +117,11 @@
         <value name="version">1.0</value>
         <double name="rank" type="Double">1.2000000000000002</double>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Customers</value>
+          <value name="connectionName">Local_CustDB</value>
           <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Customers</value>
+        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Local_CustDB</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
@@ -134,7 +133,8 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <null name="mapSet"/>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
@@ -144,17 +144,13 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">
