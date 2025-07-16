@@ -60,14 +60,6 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
-- serviceName: project.arhe_dev.integrations:RetreiveClientData
-  packages:
-  - name: ArHe_DevProject
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.arhe_dev.integrations:RetreiveCreditApproval
   packages:
   - name: ArHe_DevProject
