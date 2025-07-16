@@ -36,6 +36,14 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Update_Account_Data
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.arhe_dev.integrations:APICaller
   packages:
   - name: ArHe_DevProject
@@ -69,6 +77,14 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 - serviceName: project.arhe_dev.integrations:Retreive_Account_Data
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.arhe_dev.integrations:Update_Account_Data
   packages:
   - name: ArHe_DevProject
     version: "1.0"
