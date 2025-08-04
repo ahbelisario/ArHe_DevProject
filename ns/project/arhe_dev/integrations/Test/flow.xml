@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="ArHe_ExtServicesProject" SERVICE="arhe_extservices.integrations:strconcat">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>
