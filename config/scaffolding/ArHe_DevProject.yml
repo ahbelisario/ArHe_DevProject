@@ -11,6 +11,11 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: ArHe_ExtServicesProject
+  gitServerName: ArHe_GitHub
+  gitUrl: https://github.com/ahbelisario
+  gitUsername: ahbelisario
+  gitBranch: master
 services:
 - serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalBD_PSQL
   packages:
