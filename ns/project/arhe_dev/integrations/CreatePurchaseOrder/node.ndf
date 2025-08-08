@@ -19,7 +19,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">151f33b0-73fa-11f0-9e44-af0d98b4b2ba</value>
+            <value name="id">748e81f0-741f-11f0-902e-4b1e52197246</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">customer</value>
@@ -33,7 +33,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">151f33b0-73fa-11f0-9e44-af0d98b4b2ba/151f33b1-73fa-11f0-9e44-af0d98b4b2ba</value>
+                <value name="id">748e81f0-741f-11f0-902e-4b1e52197246/748e81f1-741f-11f0-902e-4b1e52197246</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">id_client</value>
@@ -50,7 +50,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">151f5ac0-73fa-11f0-9e44-af0d98b4b2ba</value>
+            <value name="id">748e81f2-741f-11f0-902e-4b1e52197246</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">items</value>
@@ -65,7 +65,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">151f5ac0-73fa-11f0-9e44-af0d98b4b2ba/151f5ac1-73fa-11f0-9e44-af0d98b4b2ba</value>
+                <value name="id">748e81f2-741f-11f0-902e-4b1e52197246/748e81f3-741f-11f0-902e-4b1e52197246</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">sku</value>
@@ -79,7 +79,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">151f5ac0-73fa-11f0-9e44-af0d98b4b2ba/151f5ac2-73fa-11f0-9e44-af0d98b4b2ba</value>
+                <value name="id">748e81f2-741f-11f0-902e-4b1e52197246/748e81f4-741f-11f0-902e-4b1e52197246</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">quantity</value>
@@ -175,7 +175,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754617840654</value>
+    <value name="lastModifiedDate">1754633962382</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -333,53 +333,6 @@
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <value name="nodePathForDebug">2.0</value>
-      </record>
-      <record name="/3" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">6</number>
-        <value name="nodePathNew">3</value>
-        <number name="nodeIndex" type="Long">3</number>
-        <number name="lineNumberForDebug" type="Long">5</number>
-        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <value name="nodePathForDebug">3</value>
-      </record>
-      <null name="/3/0"/>
-      <record name="/3/1" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/2" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/3" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/4" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/5" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/6" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/7" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/8" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/9" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/10" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/3/11" javaclass="com.wm.util.Values">
-      </record>
-      <record name="/4" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">EXIT</value>
-        <value name="nodePathForDebug">4</value>
       </record>
     </record>
   </record>
