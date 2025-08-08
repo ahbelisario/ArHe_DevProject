@@ -19,7 +19,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">ce54cff0-73f2-11f0-8d3e-ff32ae63c6ca</value>
+            <value name="id">b23f1090-73f3-11f0-8d3e-ff32ae63c6ca</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">customer</value>
@@ -33,7 +33,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">ce54cff0-73f2-11f0-8d3e-ff32ae63c6ca/ce54cff1-73f2-11f0-8d3e-ff32ae63c6ca</value>
+                <value name="id">b23f1090-73f3-11f0-8d3e-ff32ae63c6ca/b23f1091-73f3-11f0-8d3e-ff32ae63c6ca</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">id_client</value>
@@ -50,7 +50,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">ce54cff2-73f2-11f0-8d3e-ff32ae63c6ca</value>
+            <value name="id">b23f1092-73f3-11f0-8d3e-ff32ae63c6ca</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">items</value>
@@ -65,7 +65,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">ce54cff2-73f2-11f0-8d3e-ff32ae63c6ca/ce54f700-73f2-11f0-8d3e-ff32ae63c6ca</value>
+                <value name="id">b23f1092-73f3-11f0-8d3e-ff32ae63c6ca/b23f1093-73f3-11f0-8d3e-ff32ae63c6ca</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">sku</value>
@@ -79,7 +79,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">ce54cff2-73f2-11f0-8d3e-ff32ae63c6ca/ce54f701-73f2-11f0-8d3e-ff32ae63c6ca</value>
+                <value name="id">b23f1092-73f3-11f0-8d3e-ff32ae63c6ca/b23f1094-73f3-11f0-8d3e-ff32ae63c6ca</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">quantity</value>
@@ -104,6 +104,23 @@
           </record>
           <value name="is_public">false</value>
           <value name="field_name">status</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">id_order</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -158,7 +175,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754615048483</value>
+    <value name="lastModifiedDate">1754615138255</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -169,27 +186,6 @@
     </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Math</value>
-          <value name="groupName">math</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">randomDouble</value>
-          <value name="serviceName">pub.math:randomDouble</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -207,11 +203,11 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">5</number>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
-      <record name="/2" javaclass="com.wm.util.Values">
+      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -257,14 +253,14 @@
         <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalDB_MP</value>
         <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <value name="nodePathNew">2</value>
-        <number name="nodeIndex" type="Long">2</number>
-        <number name="lineNumberForDebug" type="Long">3</number>
-        <number name="ui_step_index" type="Long">3</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <number name="ui_step_index" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/3" javaclass="com.wm.util.Values">
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
         <value name="itemType">CONTROLS</value>
         <record name="in_array" javaclass="com.wm.util.Values">
@@ -279,7 +275,7 @@
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
       </record>
-      <record name="/3/0" javaclass="com.wm.util.Values">
+      <record name="/2/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -332,7 +328,7 @@
         <number name="ui_step_index" type="Long">5</number>
         <null name="outputMapSet"/>
       </record>
-      <record name="/4" javaclass="com.wm.util.Values">
+      <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">6</number>
@@ -350,30 +346,30 @@
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
-      <null name="/4/0"/>
-      <record name="/4/1" javaclass="com.wm.util.Values">
+      <null name="/3/0"/>
+      <record name="/3/1" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/2" javaclass="com.wm.util.Values">
+      <record name="/3/2" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/3" javaclass="com.wm.util.Values">
+      <record name="/3/3" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/4" javaclass="com.wm.util.Values">
+      <record name="/3/4" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/5" javaclass="com.wm.util.Values">
+      <record name="/3/5" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/6" javaclass="com.wm.util.Values">
+      <record name="/3/6" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/7" javaclass="com.wm.util.Values">
+      <record name="/3/7" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/8" javaclass="com.wm.util.Values">
+      <record name="/3/8" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/9" javaclass="com.wm.util.Values">
+      <record name="/3/9" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/10" javaclass="com.wm.util.Values">
+      <record name="/3/10" javaclass="com.wm.util.Values">
       </record>
-      <record name="/4/11" javaclass="com.wm.util.Values">
+      <record name="/3/11" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5" javaclass="com.wm.util.Values">
+      <record name="/4" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">EXIT</value>
       </record>
