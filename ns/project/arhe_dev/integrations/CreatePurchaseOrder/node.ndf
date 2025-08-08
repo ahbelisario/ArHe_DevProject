@@ -171,7 +171,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754616372752</value>
+    <value name="lastModifiedDate">1754616428537</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -270,9 +270,9 @@
           <value name="field_name">items</value>
           <null name="wrapper_type"/>
         </record>
-        <value name="nodePathNew">3</value>
-        <number name="nodeIndex" type="Long">3</number>
-        <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathNew">2</value>
+        <number name="nodeIndex" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
         <value name="nodePathForDebug">2</value>
       </record>
       <record name="/2/0" javaclass="com.wm.util.Values">
@@ -322,12 +322,13 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathNew">3.0</value>
+        <value name="nodePathNew">2.0</value>
         <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">5</number>
-        <number name="ui_step_index" type="Long">5</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <number name="ui_step_index" type="Long">4</number>
         <null name="outputMapSet"/>
         <value name="nodePathForDebug">2.0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
