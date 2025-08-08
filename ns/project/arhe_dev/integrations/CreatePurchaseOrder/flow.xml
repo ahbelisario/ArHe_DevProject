@@ -262,7 +262,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalDB_MP</value>
+  <value name="xml">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -710,6 +710,15 @@
 
 <MAPCOPY FROM="/items;2;0/quantity;3.7;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.6;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">

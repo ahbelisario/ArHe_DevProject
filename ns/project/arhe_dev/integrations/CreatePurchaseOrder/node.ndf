@@ -175,7 +175,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754615138255</value>
+    <value name="lastModifiedDate">1754615801712</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -206,6 +206,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -246,11 +248,11 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">LocalDB_MP</value>
+          <value name="connectionName">MySQL_MP</value>
           <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalDB_MP</value>
+        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
         <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <value name="nodePathNew">1</value>
@@ -259,6 +261,7 @@
         <number name="ui_step_index" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">REPEAT</value>
@@ -274,6 +277,7 @@
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <value name="nodePathForDebug">2</value>
       </record>
       <record name="/2/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -301,12 +305,12 @@
         <value name="version">1.0</value>
         <double name="rank" type="Double">1.2000000000000002</double>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">LocalDB_MP</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionName">MySQL_MP</value>
+          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalDB_MP</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
+        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -327,6 +331,7 @@
         <number name="lineNumberForDebug" type="Long">5</number>
         <number name="ui_step_index" type="Long">5</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">2.0</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -345,6 +350,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">3</value>
       </record>
       <null name="/3/0"/>
       <record name="/3/1" javaclass="com.wm.util.Values">
@@ -372,6 +378,7 @@
       <record name="/4" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">EXIT</value>
+        <value name="nodePathForDebug">4</value>
       </record>
     </record>
   </record>
