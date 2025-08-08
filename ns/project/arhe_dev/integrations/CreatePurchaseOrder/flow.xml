@@ -717,12 +717,6 @@
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/convertAs;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">java.lang.Integer</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -772,10 +766,9 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">id_order</value>
-            <value name="field_type">object</value>
+            <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="field_opt">true</value>
-            <value name="wrapper_type">java.lang.Integer</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -797,9 +790,10 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">quantity</value>
-            <value name="field_type">string</value>
+            <value name="field_type">object</value>
             <value name="field_dim">0</value>
             <value name="field_opt">true</value>
+            <value name="wrapper_type">java.lang.Integer</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -1003,18 +997,6 @@
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">id_order</value>
-        <value name="field_type">object</value>
-        <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">$iteration</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
@@ -1030,13 +1012,13 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/id_order;3.6;0" TO="/CreatePurchaseOrderDetailsInput;2;0/id_order;3.6;0">
+<MAPCOPY FROM="/id_order;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/id_order;1;0">
 </MAPCOPY>
 
 <MAPCOPY FROM="/items;2;0/sku;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/sku;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/items;2;0/quantity;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;1;0">
+<MAPCOPY FROM="/quantity;3.6;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.6;0">
 </MAPCOPY>
 </MAP>
 
