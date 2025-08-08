@@ -120,6 +120,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.arhe_dev.integrations:RetreiveCreditApproval
   packages:
   - name: ArHe_DevProject
