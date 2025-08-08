@@ -249,6 +249,9 @@
 
 <MAPCOPY FROM="/date;3.9;0" TO="/CreatePurchaseOrderInput;2;0/datecreated;3;0">
 </MAPCOPY>
+
+<MAPCOPY FROM="/id_order;1;0" TO="/CreatePurchaseOrderInput;2;0/id_order;1;0">
+</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
