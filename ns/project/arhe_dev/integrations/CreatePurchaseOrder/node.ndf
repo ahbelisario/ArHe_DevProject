@@ -170,7 +170,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754617484347</value>
+    <value name="lastModifiedDate">1754617626390</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -301,11 +301,11 @@
         <double name="rank" type="Double">1.2000000000000002</double>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">MySQL_MP</value>
-          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
-        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -333,9 +333,9 @@
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">6</number>
-        <value name="nodePathNew">4</value>
-        <number name="nodeIndex" type="Long">4</number>
-        <number name="lineNumberForDebug" type="Long">6</number>
+        <value name="nodePathNew">3</value>
+        <number name="nodeIndex" type="Long">3</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
