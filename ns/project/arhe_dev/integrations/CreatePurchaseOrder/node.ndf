@@ -158,7 +158,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754614920357</value>
+    <value name="lastModifiedDate">1754615048483</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -331,6 +331,51 @@
         <number name="lineNumberForDebug" type="Long">5</number>
         <number name="ui_step_index" type="Long">5</number>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/4" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">6</number>
+        <value name="nodePathNew">4</value>
+        <number name="nodeIndex" type="Long">4</number>
+        <number name="lineNumberForDebug" type="Long">6</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+      </record>
+      <null name="/4/0"/>
+      <record name="/4/1" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/2" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/3" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/4" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/5" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/6" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/7" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/8" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/9" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/10" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/4/11" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/5" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">EXIT</value>
       </record>
     </record>
   </record>
