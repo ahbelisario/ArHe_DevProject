@@ -116,9 +116,8 @@
           </record>
           <value name="is_public">false</value>
           <value name="field_name">id_order</value>
-          <value name="field_type">object</value>
+          <value name="field_type">string</value>
           <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Integer</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -171,7 +170,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754616428537</value>
+    <value name="lastModifiedDate">1754617428460</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -211,10 +210,10 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">InsertPurchaseOrder</value>
-          <null name="description"/>
+          <value name="operationName">CreatePurchaseOrder</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.arhe_dev</value>
         </record>
         <value name="appType">predefined</value>
@@ -245,11 +244,11 @@
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">MySQL_MP</value>
-          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP</value>
-        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
@@ -327,8 +326,8 @@
         <number name="lineNumberForDebug" type="Long">4</number>
         <number name="ui_step_index" type="Long">4</number>
         <null name="outputMapSet"/>
-        <value name="nodePathForDebug">2.0</value>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathForDebug">2.0</value>
       </record>
       <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
