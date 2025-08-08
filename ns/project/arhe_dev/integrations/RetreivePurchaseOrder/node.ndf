@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="createdDate">1754674795378</value>
-    <value name="lastModifiedDate">1754674795378</value>
+    <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
+    <value name="lastModifiedDate">1754676750342</value>
     <value name="displayName">RetreivePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -104,6 +103,7 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
