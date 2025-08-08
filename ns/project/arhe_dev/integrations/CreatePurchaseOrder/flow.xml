@@ -717,6 +717,12 @@
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/convertAs;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">java.lang.Integer</value>
+</Values>
+</DATA>
 </MAPSET>
 </MAP>
 
@@ -1011,9 +1017,6 @@
 </MAPSOURCE>
 
   <!-- nodes -->
-
-<MAPCOPY FROM="/quantity;3.6;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.6;0">
-</MAPCOPY>
 
 <MAPCOPY FROM="/items;2;0/sku;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/sku;1;0">
 </MAPCOPY>

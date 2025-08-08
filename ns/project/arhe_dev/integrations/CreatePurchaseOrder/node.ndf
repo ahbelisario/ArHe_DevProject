@@ -157,7 +157,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1754670825748</value>
+    <value name="lastModifiedDate">1754671374662</value>
     <value name="displayName">CreatePurchaseOrder</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -208,7 +208,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <Boolean name="hasBreakPoint">true</Boolean>
+        <Boolean name="hasBreakPoint">false</Boolean>
       </record>
       <record name="/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -326,7 +326,6 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">3.0.0</value>
       </record>
       <record name="/3/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
