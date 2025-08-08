@@ -1023,6 +1023,9 @@
 
 <MAPCOPY FROM="/id_order;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/id_order;1;0">
 </MAPCOPY>
+
+<MAPCOPY FROM="/quantity;3.6;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.6;0">
+</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
