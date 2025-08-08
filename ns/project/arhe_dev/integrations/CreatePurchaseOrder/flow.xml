@@ -140,7 +140,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">748e81f0-741f-11f0-902e-4b1e52197246</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customer</value>
@@ -154,7 +153,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">748e81f0-741f-11f0-902e-4b1e52197246/748e81f1-741f-11f0-902e-4b1e52197246</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">id_client</value>
@@ -171,7 +169,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">748e81f2-741f-11f0-902e-4b1e52197246</value>
+          <value name="id">bc5dc4d0-7421-11f0-902e-4b1e52197246</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">items</value>
@@ -330,7 +328,7 @@
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
             <value name="field_opt">true</value>
-            <value name="wrapper_type">java.lang.Integer</value>
+            <value name="wrapper_type">java.lang.Double</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -401,7 +399,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">748e81f0-741f-11f0-902e-4b1e52197246</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customer</value>
@@ -418,7 +415,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">748e81f2-741f-11f0-902e-4b1e52197246</value>
+          <value name="id">bc5dc4d0-7421-11f0-902e-4b1e52197246</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">items</value>
@@ -432,7 +429,7 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">748e81f2-741f-11f0-902e-4b1e52197246/748e81f3-741f-11f0-902e-4b1e52197246</value>
+              <value name="id">bc5dc4d0-7421-11f0-902e-4b1e52197246/bc5dc4d1-7421-11f0-902e-4b1e52197246</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">sku</value>
@@ -446,13 +443,13 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">748e81f2-741f-11f0-902e-4b1e52197246/748e81f4-741f-11f0-902e-4b1e52197246</value>
+              <value name="id">bc5dc4d0-7421-11f0-902e-4b1e52197246/bc5dc4d2-7421-11f0-902e-4b1e52197246</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">quantity</value>
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">java.lang.Integer</value>
+            <value name="wrapper_type">java.lang.Long</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -544,13 +541,13 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/items;2;0/sku;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/sku;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/id_order;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/id_order;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/items;2;0/quantity;3.6;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.6;0">
+<MAPCOPY FROM="/items;2;0/sku;1;0" TO="/CreatePurchaseOrderDetailsInput;2;0/sku;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/items;2;0/quantity;3.7;0" TO="/CreatePurchaseOrderDetailsInput;2;0/quantity;3.4;0">
 </MAPCOPY>
 </MAP>
 
@@ -559,4 +556,8 @@
 </MAP>
 </INVOKE>
 </LOOP>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>
