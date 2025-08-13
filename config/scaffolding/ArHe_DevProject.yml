@@ -76,6 +76,14 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:MP_SelectProducts
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:RetreiveCustCredit
   packages:
   - name: ArHe_DevProject
@@ -145,6 +153,14 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2064
 - serviceName: project.arhe_dev.integrations:MP_SelectCustomer
+  packages:
+  - name: ArHe_DevProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.arhe_dev.integrations:MP_SelectProducts
   packages:
   - name: ArHe_DevProject
     version: "1.0"
