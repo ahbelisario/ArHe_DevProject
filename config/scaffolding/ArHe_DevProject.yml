@@ -12,38 +12,6 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalBD_PSQL
-  packages:
-  - name: ArHe_DevProject
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:LocalDB_MP
-  packages:
-  - name: ArHe_DevProject
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Local_CustDB
-  packages:
-  - name: ArHe_DevProject
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MySQL_MP
-  packages:
-  - name: ArHe_DevProject
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:CreatePurchaseOrder
   packages:
   - name: ArHe_DevProject
@@ -127,19 +95,19 @@ services:
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2090
 - serviceName: pub.json:jsonStreamToDocument
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2090
 - serviceName: pub.flow:getLastFailureCaught
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2090
 - serviceName: pub.string:indexOf
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2090
 - serviceName: project.arhe_dev.integrations:CreatePurchaseOrder
   packages:
   - name: ArHe_DevProject
@@ -151,7 +119,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2090
 - serviceName: project.arhe_dev.integrations:MP_SelectCustomer
   packages:
   - name: ArHe_DevProject
@@ -277,10 +245,10 @@ configurationVariables:
   : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionSettings.trustStore
   : ""
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionManagerSettings.heartBeatInterval
-  : "0"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionManagerSettings.heartBeatInterval
+  : "0"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.heartBeatInterval
   : "0"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionSettings.keyStore
@@ -301,10 +269,10 @@ configurationVariables:
   : wm-db
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionManagerSettings.blockingTimeout
   : "1000"
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionEnabled
-  : "false"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionSettings.password
   : "{AES}HSW2KjVGRKiCOPEAjHgdSw=="
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionEnabled
+  : "false"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionSettings.networkProtocol
   : ""
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.blockingTimeout
