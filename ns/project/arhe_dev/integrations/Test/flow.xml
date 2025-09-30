@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Client" SERVICE="pub.client:http">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/url;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">https://chatbot-ec-amxp-ec-chatbot.apps.ocp-prod.clarodigital.net/HUB-EC/services/legadosPOC/homeMiClaro</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/method;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">get</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/auth;2;0/type;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Bearer</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/auth;2;0/token;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1NWVlNTNlMi1jMDI0LTQzNWQtYTNhMi1jYzMyMzUyYjg0OTIiLCJzdWIiOiJQT0NfVE9LRU4iLCJleHAiOjE3NTk0MjUyMjQsImlkIjoiUE9DX1RPS0VOIn0.Ql7fKq0W0pmPmP3I6d7nt-jikZufCQE5RkzdSzLLZ98TLXf6Ey0GCQtc7z91O-YR-wwxb7dLoHDGReGupTXRJQ</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/data;2;0/string;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">user_name=jmendoza@claro.com.ec</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+</FLOW>
