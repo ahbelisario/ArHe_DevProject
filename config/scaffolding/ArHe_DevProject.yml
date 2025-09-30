@@ -176,10 +176,6 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2090
 - serviceName: project.arhe_dev.integrations:Update_Account_Zoho_ID
   packages:
   - name: ArHe_DevProject
