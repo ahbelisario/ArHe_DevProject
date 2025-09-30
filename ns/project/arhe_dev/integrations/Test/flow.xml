@@ -1098,7 +1098,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/body;2;0/bytes;3;0" TO="/jsonStream;3;0">
+<MAPCOPY FROM="/body;2;0/stream;3;0" TO="/jsonStream;3;0">
 </MAPCOPY>
 </MAP>
 
