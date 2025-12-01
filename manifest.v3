@@ -10,17 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="WmSAP">10.1.0.0.1013</value>
+    <value name="SAPDriversProject">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">378</value>
+  <value name="build">379</value>
   <null name="description"/>
   <value name="created_date">24-06-2025 19:15:52 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-11-26T22:53:15.819918704Z</value>
+  <value name="lastUpdated">2025-12-01T18:57:06.117668815Z</value>
   <value name="wmProjectId">flff9607b18a7c6fbfc5d731</value>
   <value name="creator">Arturo Jose Hernandez Belisario</value>
   <value name="name">ArHe_DevProject</value>
