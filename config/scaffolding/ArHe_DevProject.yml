@@ -20,6 +20,11 @@ packages:
   gitUrl: https://github.com/ahbelisario
   gitUsername: ahbelisario
   gitBranch: master
+- name: ExtServicesProject
+  gitServerName: ArHe_GitHub
+  gitUrl: https://github.com/ahbelisario
+  gitUsername: ahbelisario
+  gitBranch: master
 services:
 - serviceName: project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Local_MySQL
   packages:
@@ -310,20 +315,20 @@ configurationVariables:
   : "1000"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.TestSap.connectionSettings.systemId
   : ""
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.maximumPoolSize
-  : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.TestSap.connectionSettings.repoUser
   : ""
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.maximumPoolSize
+  : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionSettings.sapGui
   : "Off"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionEnabled
   : "false"
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionManagerSettings.poolIncrementSize
-  : "1"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionManagerSettings.poolIncrementSize
+  : "1"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_MySQL.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionManagerSettings.minimumPoolSize
@@ -349,10 +354,10 @@ configurationVariables:
   : "0"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionSettings.loadBalancing
   : "Off"
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.dbType
-  : MySQL
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionSettings.connectionType
   : "No"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionSettings.dbType
+  : MySQL
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionSettings.driverType
   : Mysql_Drivers_Group
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionManagerSettings.startupRetryCount
@@ -449,9 +454,9 @@ configurationVariables:
   : ""
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_MySQL.connectionSettings.trustStore
   : ""
-  artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionEnabled: "false"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_MySQL.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
+  artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionEnabled: "false"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.heartBeatInterval
   : "0"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmSAP.com_wm_adapter_sap_SAPAdapter.connections.SAPTest.connectionSettings.testConnection
@@ -460,10 +465,10 @@ configurationVariables:
   : ""
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_MySQL.connectionManagerSettings.poolIncrementSize
   : "1"
-  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionManagerSettings.maximumPoolSize
-  : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Local_CustDB.connectionManagerSettings.expireTimeout
   : "1000"
+  ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalDB_MP.connectionManagerSettings.maximumPoolSize
+  : "10"
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LocalBD_PSQL.connectionSettings.keyStore
   : ""
   ? artConnection.ArHe_DevProject.project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.MySQL_MP.connectionManagerSettings.poolable
