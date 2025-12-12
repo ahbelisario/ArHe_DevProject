@@ -72,7 +72,7 @@
           <value name="node_comment"></value>
           <record name="node_hints" javaclass="com.wm.util.Values">
             <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
+            <value name="field_password">true</value>
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
@@ -131,7 +131,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1765579996180</value>
+    <value name="lastModifiedDate">1765580196496</value>
     <value name="displayName">Test</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
