@@ -131,7 +131,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1765575041675</value>
+    <value name="lastModifiedDate">1765579996180</value>
     <value name="displayName">Test</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -140,7 +140,7 @@
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
           <value name="groupDisplayName">ExtServicesProject</value>
-          <value name="groupName">ExtServicesProject;1.0</value>
+          <value name="groupName">ExtServicesProject;1.1</value>
           <null name="services"/>
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
@@ -175,6 +175,8 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
   </record>
