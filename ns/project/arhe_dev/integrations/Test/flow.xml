@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="ExtServicesProject" SERVICE="project.extservices.integrations:sftp_dwnfile">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/server;1;0" TO="/server;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/port;1;0" TO="/port;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/user;1;0" TO="/user;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/pass;1;0" TO="/pass;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/filepath;1;0" TO="/filename;1;0">
+</MAPCOPY>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+</FLOW>
