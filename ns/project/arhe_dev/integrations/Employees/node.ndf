@@ -64,7 +64,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arturo.Hernandez.B@ibm.com</value>
-    <value name="lastModifiedDate">1772466351555</value>
+    <value name="lastModifiedDate">1772472959724</value>
     <value name="displayName">Employees</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -81,9 +81,9 @@
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">All_Employees</value>
+          <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.arhe_dev</value>
         </record>
         <value name="appType">predefined</value>
@@ -98,14 +98,6 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
-        <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">ERT_MySQL</value>
-          <value name="connectionType">sagcloud</value>
-          <null name="description"/>
-        </record>
-        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:ERT_MySQL</value>
-        <value name="connectionType">sagcloud</value>
-        <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
@@ -120,11 +112,24 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">ERT_MySQL</value>
+          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:ERT_MySQL</value>
+        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>

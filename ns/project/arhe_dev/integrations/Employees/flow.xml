@@ -125,10 +125,23 @@
 
 <MAPCOPY FROM="/emp_no;3.6;0" TO="/All_EmployeesInput;2;0/emp_no_1;3.6;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.arhe_dev.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:ERT_MySQL</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>
